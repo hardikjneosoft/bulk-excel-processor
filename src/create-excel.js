@@ -1,10 +1,10 @@
 import ExcelJS from "exceljs";
 import { existsSync, mkdirSync } from "fs";
 
-const TOTAL_ROWS = 500;
+const TOTAL_ROWS = 50000;
 const MAX_ROWS_PER_SHEET = 1_048_576; 
 const OUTPUT_DIR = "./data";
-const OUTPUT_FILE = `${OUTPUT_DIR}/sample_small.xlsx`;
+const OUTPUT_FILE = `${OUTPUT_DIR}/sample.xlsx`;
 
 console.log(`\nGenerating ${TOTAL_ROWS.toLocaleString()} rows into Excel...`);
 

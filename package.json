@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node src/index.js",
     "setup": "node src/database/setup.js",
-    "generate": "node src/create-excel.js"
+    "generate": "node src/create-excel.js",
+    "status": "node src/status.js",
+    "reset": "node src/reset.js"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
