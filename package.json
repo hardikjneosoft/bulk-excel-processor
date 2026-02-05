@@ -1,0 +1,18 @@
+{
+  "name": "bulk-excel-processor",
+  "version": "1.0.0",
+  "description": "Simple bulk Excel processor with PostgreSQL",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node src/database/setup.js",
+    "generate": "node src/create-excel.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "express-status-monitor": "^1.3.4",
+    "pg": "^8.18.0"
+  }
+}
